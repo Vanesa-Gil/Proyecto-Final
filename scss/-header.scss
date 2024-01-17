@@ -1,0 +1,33 @@
+/* inicio - estilos para mi header*/
+header{
+    .container-fluid {
+        background: linear-gradient(300deg, rgb(133, 208, 244) 0%, rgb(220, 156, 239) 100%);
+        padding: 30px;
+        font-size: 22px;
+        .navbar-brand {
+            font-size: 40px;
+            float: left;
+          }
+      }
+    nav li {
+        display: inline-block;
+        color: #fff;
+        padding: 10px 20px;
+        line-height: normal;
+        font-size: 20px;
+        font-weight: bold;
+        line-height: 80px;
+        a {
+            color: rgb(201, 209, 216);
+          }
+      }
+
+  }
+
+  header nav a:hover {
+    color: #ffffff !important;
+    background: #e4b8f1;
+    border-radius: 40px;
+  }
+
+  /* fin - estilos para mi header*/

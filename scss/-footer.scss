@@ -1,0 +1,56 @@
+/* inicio - estilos para mi footer*/
+.footer {
+    background: linear-gradient(300deg, rgb(91, 190, 236) 0%, rgb(207, 112, 236) 100%);
+    padding: 50px 0;
+ 
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        .footer-row {
+            display: flex;
+            flex-wrap: wrap;
+            text-align: center;
+            justify-content: space-between;
+            .footer-links {
+                width: 25%;
+                padding: 0 15px;
+                h4 {
+                    font-size: 25px;
+                    color: rgba(246, 242, 242, 0.749);
+                    margin-bottom: 25px;
+                    font-weight: 500;
+                    display: inline-block;
+                  }
+                ul li a {
+                    font-size: 18px;
+                    color: rgba(246, 242, 242, 0.749);
+                    display: block;
+                    margin-bottom: 30px;
+                    transition: all 3s ease;
+
+                    &:hover {
+                        color: #64cddb;
+                        padding-left: 6px;                        
+                    }
+                  }
+                .redes-sociales a {
+                    display: inline-block;
+                    min-height: 40px;
+                    width: 40px;
+                    background-color: #e4b8f1;
+                    margin: 0 10px 10px 0  ;
+                    text-align: center;
+                    line-height: 40px;
+                    border-radius: 50%;
+                    color: #ffff;
+                    transition: all .5s ease;
+
+                    &:hover {
+                        background-color: #64cddb;
+                    }
+                  }
+              }
+          }
+      }
+  }
+  /* fin - estilos para mi footer*/
