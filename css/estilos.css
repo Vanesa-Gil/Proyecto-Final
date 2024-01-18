@@ -29,6 +29,24 @@ header nav a:hover {
 
 /* fin - estilos para mi header*/
 /* inicio - estilos para mi main*/
+.parrafo {
+  margin: 30px;
+  padding: 30px;
+  font-size: 15px;
+  left: 30%;
+  top: 30%;
+  text-align: justify;
+}
+
+.comprar {
+  margin: 30px;
+  padding: 30px;
+  font-size: 15px;
+  left: 30%;
+  top: 30%;
+  text-align: justify;
+}
+
 main h1 {
   text-align: center;
   margin: 20px;
@@ -37,22 +55,6 @@ main h1 {
 main h3 {
   margin: 20px;
   font-size: 18px;
-}
-main .parrafo {
-  margin: 30px;
-  padding: 30px;
-  font-size: 15px;
-  left: 30%;
-  top: 30%;
-  text-align: justify;
-}
-main .comprar {
-  margin: 30px;
-  padding: 30px;
-  font-size: 15px;
-  left: 30%;
-  top: 30%;
-  text-align: justify;
 }
 main section {
   margin: 20px;
@@ -135,8 +137,8 @@ main .carousel-item img {
 /* inicio formato contacto*/
 .form-content {
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
 }
 .form-content form {
   border: 1px;
